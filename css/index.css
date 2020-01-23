@@ -168,6 +168,21 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.home .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+.home .navbar ul {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+.home hr {
+  border: 1px dashed grey;
+}
 .home .content-section {
   margin: 30px 0;
   display: flex;
